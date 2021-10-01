@@ -106,9 +106,13 @@ int main()
                 carry=sum/10;
 
             }
+           if(s1.IsEmpty()==true&& s2.IsEmpty()==true)
+            {
+
             if(carry!=0)
             {
                 s3.push(carry);
+            }
             }
         }
 
